@@ -1,4 +1,5 @@
-function sum(a, b) {
-  return a + b;
-}
-module.exports = sum;
+let m = [1,2,3]
+
+let y = [...m, ...m]
+
+console.log(y)
